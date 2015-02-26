@@ -4,30 +4,57 @@
   "location": {
     "city": "Warendorf",
     "country": "DE",
-    "lat": 51.94153009188502,
-    "lon": 7.985156178474425
+    "lat": 51.941530091885,
+    "lon": 7.9851561784744
   },
   "contact": {
     "email": "info@freifunk-muensterland.net",
+    "phone": "+4925815294004",
     "ml": "https://forum.freifunk.net/c/community/warendorf",
     "facebook": "https://www.facebook.com/FreifunkWarendorf",
     "twitter": "@ffwarendorf"
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 30,
+    "nodes": 34,
     "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
     "focus": [
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2015-02-14T18:10:35.037Z"
+    "lastchange": "2015-02-26T20:02:46.063Z"
   },
-  "api": "0.4.6",
+  "feeds": [
+    {
+      "name": "FF Warendorf Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "http://warendorf.freifunk.net/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://freifunk-muenster.de/map/geomap.html#lat=51.941&lon=7.985&zoom=00010",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
   "techDetails": {
-    "routing": [],
-    "updatemode": [],
-    "legals": []
-  }
+    "firmware": {
+      "name": "ffwaf - gluon",
+      "url": "http://images.freifunk-muensterland.net/stable/"
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.6"
 }
