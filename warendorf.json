@@ -16,14 +16,14 @@
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 34,
+    "nodes": 42,
     "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
     "focus": [
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2015-02-26T20:02:46.063Z"
+    "lastchange": "2015-05-04T19:12:21.240Z"
   },
   "feeds": [
     {
@@ -35,9 +35,9 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://freifunk-muenster.de/map/geomap.html#lat=51.941&lon=7.985&zoom=00010",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
+      "url": "https://freifunk-muensterland.de/map/",
+      "interval": "1x pro Minute",
+      "technicalType": "ffmap"
     }
   ],
   "techDetails": {
@@ -56,5 +56,5 @@
       "vpnnational"
     ]
   },
-  "api": "0.4.6"
+  "api": "0.4.8"
 }
