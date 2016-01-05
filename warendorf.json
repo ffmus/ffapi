@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Warendorf",
-  "url": "http://warendorf.freifunk.net/",
+  "url": "https://freifunk-muensterland.de/category/region/warendorf/",
   "location": {
     "city": "Warendorf",
     "country": "DE",
@@ -10,40 +10,48 @@
   "contact": {
     "email": "info@freifunk-muensterland.net",
     "phone": "+4925815294004",
-    "ml": "https://forum.freifunk.net/c/community/warendorf",
+    "ml": "https://forum.freifunk-muensterland.de/c/ffmsl/waf",
     "facebook": "https://www.facebook.com/FreifunkWarendorf",
     "twitter": "@ffwarendorf"
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 42,
+    "nodes": 92,
     "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
     "focus": [
+      "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2015-05-04T19:12:21.240Z"
+    "lastchange": "2016-01-05T15:33:17.446Z"
   },
   "feeds": [
     {
       "name": "FF Warendorf Blog",
       "category": "blog",
       "type": "rss",
-      "url": "http://warendorf.freifunk.net/feed/"
+      "url": "https://freifunk-muensterland.de/category/region/warendorf/feed/"
     }
   ],
   "nodeMaps": [
     {
-      "url": "https://freifunk-muensterland.de/map/",
+      "url": "http://ffwaf-srv2.freifunk-muensterland.net/map/",
       "interval": "1x pro Minute",
-      "technicalType": "ffmap"
+      "technicalType": "ffmap",
+      "mapType": "geographical"
     }
   ],
+  "socialprojects": {
+    "number": 8,
+    "contact": "info@freifunk-muensterland.net"
+  },
   "techDetails": {
     "firmware": {
       "name": "ffwaf - gluon",
-      "url": "http://images.freifunk-muensterland.net/stable/"
+      "url": "http://images.freifunk-muensterland.net/stable/",
+      "docs": "https://github.com/ffmus/site-ffwaf",
+      "vpnaccess": "fwimage"
     },
     "routing": [
       "batman-adv"
@@ -56,5 +64,5 @@
       "vpnnational"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.11"
 }
