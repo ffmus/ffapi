@@ -16,7 +16,7 @@
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 92,
+    "nodes": 160,
     "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
     "focus": [
       "infrastructure/backbone",
@@ -24,7 +24,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-01-05T15:33:17.446Z"
+    "lastchange": "2016-01-16T22:27:17.446Z"
   },
   "feeds": [
     {
