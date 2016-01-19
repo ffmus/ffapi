@@ -16,7 +16,7 @@
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 92,
+    "nodes": 150,
     "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
     "focus": [
       "infrastructure/backbone",
@@ -24,7 +24,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-01-05T15:33:17.446Z"
+    "lastchange": "2016-01-19T16:56:47.702Z"
   },
   "feeds": [
     {
@@ -36,7 +36,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://ffwaf-srv2.freifunk-muensterland.net/map/",
+      "url": "http://karte.freifunk-muensterland.org/map14/",
       "interval": "1x pro Minute",
       "technicalType": "ffmap",
       "mapType": "geographical"
