@@ -1,14 +1,14 @@
 {
-  "name": "Freifunk Warendorf",
+  "name": "Freifunk im Kreis Warendorf",
   "url": "https://freifunk-muensterland.de/category/region/warendorf/",
   "location": {
-    "city": "Warendorf",
+    "city": "Kreis Warendorf",
     "country": "DE",
     "lat": 51.941530091885,
     "lon": 7.9851561784744
   },
   "contact": {
-    "email": "info@freifunk-muensterland.net",
+    "email": "kreis-warendorf@freifunk-muensterland.de",
     "phone": "+4925815294004",
     "ml": "https://forum.freifunk-muensterland.de/c/ffmsl/waf",
     "facebook": "https://www.facebook.com/FreifunkWarendorf",
@@ -16,15 +16,15 @@
   },
   "metacommunity": "Freifunk Münsterland",
   "state": {
-    "nodes": 188,
-    "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis,",
+    "nodes": 189,
+    "description": "Wir bauen im Kreis Warendorf Freifunk Netze und unterstützen beim Aufbau neuer Communities im Kreis. In den viele Gemeinden des Kreises unterstützen Aktive neue Freifunker.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-01-19T16:56:47.702Z"
+    "lastchange": "2016-02-20T14:06:36.455Z"
   },
   "feeds": [
     {
@@ -44,7 +44,7 @@
   ],
   "socialprojects": {
     "number": 8,
-    "contact": "info@freifunk-muensterland.net"
+    "contact": "kreis-warendorf@freifunk-muensterland.de"
   },
   "techDetails": {
     "firmware": {
